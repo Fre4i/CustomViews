@@ -42,7 +42,7 @@ class BottomButtonsView(
 
             val negativeButtonText = typedArray.getString(R.styleable.BottomButtonsView_bottomNegativeButtonText)
             negativeButton.text = negativeButtonText ?: "Cancel"
-            
+
         }
 
         typedArray.recycle()

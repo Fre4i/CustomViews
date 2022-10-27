@@ -12,10 +12,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater).also { setContentView(it.root) }
-
-        with(binding.bottomButtons) {
-            negativeButton.text = "Cancel"
-            negativeButton.text = "OK"
-        }
     }
 }
